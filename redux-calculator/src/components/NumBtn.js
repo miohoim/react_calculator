@@ -5,6 +5,6 @@ const NumBtn = ({n, onClick }) => (
 )
 
 NumBtn.propTypes = {
-	onClick: PropTypes.func.inRequired,
+	onClick: PropTypes.func.isRequired,
 };
 export default NumBtn
